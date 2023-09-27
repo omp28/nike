@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Nav = () => {
   return (
@@ -13,15 +13,23 @@ const Nav = () => {
           />
         </a>
         <ul className="flex justify-center items-center gap-16">
-          <li className="text-slate-400"><a href='#home'>Home</a></li>
-          <li className="text-slate-400"><a href='#superquality'>About Us</a></li>
-          <li className="text-slate-400"><a href='#popularproducts'>Products</a></li>
-          <li className="text-slate-400"><a href='#footer'>Contact</a>Contact Us</li>
+          <li className="text-slate-400">
+            <a href="#home">Home</a>
+          </li>
+          <li className="text-slate-400">
+            <a href="#superquality">About Us</a>
+          </li>
+          <li className="text-slate-400">
+            <a href="#popularproducts">Products</a>
+          </li>
+          <li className="text-slate-400">
+            <a href="#footer">Contact Us</a>
+          </li>
           <li className="text-slate-400">Sign in / Explore Now</li>
         </ul>
       </nav>
     </header>
   );
-}
+};
 
 export default Nav;
